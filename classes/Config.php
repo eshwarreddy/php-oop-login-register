@@ -7,7 +7,7 @@ class Config
         if ($path)
         {
             $config = $GLOBALS['config'];
-            $path = explode('.', $path);
+            $path = explode('/', $path);
 
             foreach ($path as $bit)
             {
